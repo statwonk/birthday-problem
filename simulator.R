@@ -17,12 +17,12 @@ number_of_matching_birthdays <- function(
 
 d <- do.call(
   rbind,
-  lapply(0:6, FUN = function(birthday_matches,
+  lapply(2:6, FUN = function(birthday_matches,
                              max_people = 100,
                              simulations = 2e4) {
 
     print(
-      paste(birthday_matches, "out of", "6 matches simulated", simulations, "times"))
+      paste(birthday_matches, "out of", "5 matches simulated", simulations, "times"))
 
     data <- data.frame(
       people_in_group = rep(NA, max_people),
