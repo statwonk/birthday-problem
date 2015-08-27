@@ -19,7 +19,7 @@ d <- do.call(
   rbind,
   lapply(2:6, FUN = function(birthday_matches,
                              max_people = 100,
-                             simulations = 2e4) {
+                             simulations = 4e4) {
 
     print(
       paste(birthday_matches, "out of", "5 matches simulated", simulations, "times"))
