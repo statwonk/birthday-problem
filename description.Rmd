@@ -5,10 +5,6 @@ date: "August 25, 2015"
 output: html_document
 ---
 
-<a href="https://zapier.com" target="_blank">Zapier</a> had three team member birthdays on the same day this weekend. This is an exciting occurance for any data scientist as nothing ellicits more, "what are the odds!?"-type questions than birthdays. :) That's fortunate as birthday coincidences are a cool unintuitive probability paradox --- a favorite of statistical theory professors everywhere.
-
-It turns out **the probability of at least three matching birthdays on our 28 person team is about 27%!** Much higher than almost anyone unfamiliar with the paradox would guess.
-
-If you're curious about the paradox, I highly suggest [this fantastic breakdown of the problem](http://www.solipsys.co.uk/new/TheBirthdayParadox.html?7511303). Bonus: it applies to hashing algorithms, too, if you're into that.
+If you're curious about the paradox, I highly suggest [this fantastic breakdown of the problem](http://www.solipsys.co.uk/new/TheBirthdayParadox.html?7511303). Bonus: it applies to hashing algorithms, too, if you're into that. Finding probabilities for three or more people [can also be solved analytically](http://mathforum.org/library/drmath/view/56650.html). The trick is to focus on the complement of three or more like: P(0 matches) U P(1 pair). Rather than find the solution analytically, [I simulated the probabilities](https://github.com/statwonk/birthday-problem/blob/master/simulator.R).
 
 Birthday party on!

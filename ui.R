@@ -1,10 +1,9 @@
 library(shiny)
 
 shinyUI(fluidPage(
-
   titlePanel("Probability of shared birthdays in a group"),
   hr(),
-  includeMarkdown("description.Rmd"),
+  includeMarkdown("introduction.Rmd"),
   hr(),
   sidebarLayout(
     sidebarPanel(
@@ -19,9 +18,11 @@ shinyUI(fluidPage(
                   max = 6,
                   value = 3)
     ),
-
     mainPanel(
-      plotOutput("plot", height = "500px")
+      plotOutput("plot", height = "500px"),
+      hr(),
+      includeMarkdown("description.Rmd"),
+      hr()
     )
   )
 ))
