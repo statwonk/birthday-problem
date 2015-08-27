@@ -5,7 +5,7 @@ date: "August 25, 2015"
 output: html_document
 ---
 
-<a href="https://zapier.com" target="_blank">Zapier</a> had three team member birthdays on the same day this weekend. As a data scientist this is a rather exciting occurance, nothing ellicits more, "what are the odds!?"-type questions than birthdays. That's quite fortunate as birthday coincidences are a cool unintuitive probability paradox --- a favorite of statistical theory professors everywhere.
+<a href="https://zapier.com" target="_blank">Zapier</a> had three team member birthdays on the same day this weekend. This is an exciting occurance for any data scientist as nothing ellicits more, "what are the odds!?"-type questions than birthdays. :) That's fortunate as birthday coincidences are a cool unintuitive probability paradox --- a favorite of statistical theory professors everywhere.
 
 It turns out **the probability of at least three matching birthdays on our 28 person team is about 26%!** Much higher than almost anyone unfamiliar with the paradox would guess.
 
