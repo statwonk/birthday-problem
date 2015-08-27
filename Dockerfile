@@ -16,4 +16,6 @@ RUN rm -rf /srv/shiny-server/* \
     && cd /srv/shiny-server/ \
     && git clone https://github.com/statwonk/birthday-problem.git .
 
+EXPOSE 3838
+
 CMD ["/usr/bin/shiny-server.sh"]
