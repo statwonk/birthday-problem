@@ -11,6 +11,9 @@ RUN echo 'install.packages(c("ggplot2", "scales"), \
           dependencies=TRUE)' > /tmp/packages.R \
     && Rscript /tmp/packages.R
 
-RUN rm -rf /srv/shiny-server/*
+
+RUN rm -rf /srv/shiny-server/* \
+    && cd /srv/shiny-server/ \
+    && git clone https://github.com/statwonk/birthday-problem.git .
 
 CMD ["/usr/bin/shiny-server.sh"]
